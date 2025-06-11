@@ -20,8 +20,8 @@ Este projeto implementa um **sistema de chat simples** utilizando **sockets TCP*
 
 O projeto é composto por dois arquivos principais:
 
-- `servidor.py`: roda o servidor que gerencia conexões e transmite mensagens.
-- `cliente.py`: roda um cliente que envia e recebe mensagens no chat.
+- `server.py`: roda o servidor que gerencia conexões e transmite mensagens.
+- `client.py`: roda um cliente que envia e recebe mensagens no chat.
 
 ---
 
@@ -44,13 +44,13 @@ O projeto é composto por dois arquivos principais:
 ### 2. Iniciar o servidor (em um terminal):
 
 ```bash
-> $ python servidor.py
+> $ python server.py
 ```
 
 ### 3. Iniciar um ou mais clientes (em outro(s) terminal(is)):
 
 ```bash
-> $ python cliente.py
+> $ python client.py
 ```
 
 ```bash
@@ -80,6 +80,10 @@ Ana: Oi Pedro! Tudo bem?
     - Outra para receber mensagens do servidor.
 
 - O servidor recebe as mensagens dos clientes e as retransmite para todos os outros conectados.
+
+# 🎬 Demonstração
+
+[Vídeo do YouTube](https://)
 
 # 📜 Licença
 
